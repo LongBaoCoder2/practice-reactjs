@@ -1,0 +1,17 @@
+.btn {
+  display: inline-block;
+  padding: 20px 30px;
+  color: white;
+  font-size: 1.2em;
+  background-color: #2979ff;
+  border-radius: 20px;
+  outline: none;
+  border: none;
+  width: 300px;
+  margin: 20px;
+  &--secondary {
+    background-color: transparent;
+    color: #2979ff;
+    border: 2px solid #2979ff;
+  }
+}

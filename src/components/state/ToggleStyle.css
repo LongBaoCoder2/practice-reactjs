@@ -1,0 +1,23 @@
+.Toggle {
+  width: 120px;
+  height: 60px;
+  background-color: #ccc;
+  border-radius: 100em;
+  cursor: pointer;
+}
+.spinner {
+  width: 40px;
+  height: 40px;
+  background-color: #fff;
+  border-radius: 100rem;
+  transform: translateY(10px) translateX(10px);
+  transition: transform 400ms ease-out;
+}
+
+.Toggle.active {
+  background-color: #6a37fd;
+}
+
+.spinner.active {
+  transform: translateY(10px) translateX(70px);
+}

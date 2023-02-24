@@ -1,0 +1,59 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+* {
+  margin: 0;
+  padding: 0;
+  font: inherit;
+}
+img,
+picture,
+svg,
+video {
+  display: block;
+  max-width: 100%;
+}
+body {
+  min-height: 100vh;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 25px;
+  padding: 25px;
+}
+.youtube-image {
+  margin-bottom: 20px;
+}
+.youtube-image img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: 2%;
+}
+.youtube-footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  gap: 50px;
+  margin-left: 30px;
+  font-size: 1.5em;
+}
+
+.youtube-footer img {
+  width: 70px;
+  height: 70px;
+  border-radius: 100rem;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+.youtube-title {
+  font-weight: bold;
+}
+
+.youtube-author {
+  font-weight: 300;
+  font-size: 0.8em;
+}
